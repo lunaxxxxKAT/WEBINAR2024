@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <script src="script.js"></script>
+</head>
+<body>
+   <div class="container">
+    <h1>Webinar 2024 </h1>
+    <div id="loader" class="hide">
+        <div class="loader"></div>
+    </div>
+    <form id="frm">
+        <input type="hidden" name="id">
+        <div class="col">
+            <label for="validation" class="formlabel">Email</label>
+            <input type="text" name="fn" class="formcontrol" id="validation" required>
+            <div class="ivalid"></div>
+        </div>
+        <div class="col">
+            <label for="validation" class="formlabel">Password</label>
+            <input type="password" class="formcontrol" id="password">
+        </div>
+    </form>
+    <button id="generate-password" type="button" class="btnsucces">Generate Password</button>
+</div>
